@@ -1,0 +1,34 @@
+{
+  "name": "BasicBoilerplate Gulp - Jekyll, Bulma, SASS, Jade, BrowserSync",
+  "version": "0.1",
+  "description": "A basic jekyll boilerplate proyect using gulp for task automation.",
+  "main": "gulpfile.js",
+  "author": "Rojo Granillo <rogelio@alchimia.mx>, (http:alchimia.mx)",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.5",
+    "bulma": "^0.2.3",
+    "gulp": "^3.9.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^3.0.0",
+    "jekyll": "^3.0.0-beta1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rojoplacebo/boilerplate.git"
+  },
+  "keywords": [
+    "jade",
+    "gulp",
+    "sass",
+    "browserSync",
+    "bulma",
+    "jekyll"
+  ],
+  "dependencies": {
+    "gulp-jade": "^1.1.0"
+  }
+}
